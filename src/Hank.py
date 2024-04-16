@@ -415,11 +415,13 @@ class Hank(QtWidgets.QMainWindow):
                     row = self.ui.edit_Tab_DataTable.rowCount()
                     actions = []
                     for r in range(row):
+                        time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
+                        type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
+                        button = self.ui.edit_Tab_DataTable.item(r, 2).text()
+                        posX = self.ui.edit_Tab_DataTable.item(r, 3).text()
+                        posY = self.ui.edit_Tab_DataTable.item(r, 4).text()
                         # Make sure if the action is a key press that we leave position null.
                         if self.ui.edit_Tab_DataTable.item(r, 1).text() == 'keypressed':
-                            time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                            type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                            button = self.ui.edit_Tab_DataTable.item(r, 2).text()
                             pos = None
                             actions.append({
                                 'time': float(time_),
@@ -427,10 +429,7 @@ class Hank(QtWidgets.QMainWindow):
                                 'button': button,
                                 'pos': pos
                             })
-                        elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'keypressed':
-                            time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                            type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                            button = self.ui.edit_Tab_DataTable.item(r, 2).text()
+                        elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'keyreleased':
                             pos = None
                             actions.append({
                                 'time': float(time_),
@@ -440,11 +439,6 @@ class Hank(QtWidgets.QMainWindow):
                             })
                         # If the action is a click we make sure we keep the position value.
                         elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'click':
-                            time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                            type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                            button = self.ui.edit_Tab_DataTable.item(r, 2).text()
-                            posX = self.ui.edit_Tab_DataTable.item(r, 3).text()
-                            posY = self.ui.edit_Tab_DataTable.item(r, 4).text()
                             pos = [int(posX), int(posY)]
                             actions.append({
                                 'time': float(time_),
@@ -453,11 +447,6 @@ class Hank(QtWidgets.QMainWindow):
                                 'pos': pos
                             })
                         elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'clickreleased':
-                            time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                            type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                            button = self.ui.edit_Tab_DataTable.item(r, 2).text()
-                            posX = self.ui.edit_Tab_DataTable.item(r, 3).text()
-                            posY = self.ui.edit_Tab_DataTable.item(r, 4).text()
                             pos = [int(posX), int(posY)]
                             actions.append({
                                 'time': float(time_),
@@ -492,10 +481,12 @@ class Hank(QtWidgets.QMainWindow):
                 row = self.ui.edit_Tab_DataTable.rowCount()
                 actions = []
                 for r in range(row):
+                    time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
+                    type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
+                    button = self.ui.edit_Tab_DataTable.item(r, 2).text()
+                    posX = self.ui.edit_Tab_DataTable.item(r, 3).text()
+                    posY = self.ui.edit_Tab_DataTable.item(r, 4).text()
                     if self.ui.edit_Tab_DataTable.item(r, 1).text() == 'keypressed':
-                        time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                        type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                        button = self.ui.edit_Tab_DataTable.item(r, 2).text()
                         pos = None
                         actions.append({
                             'time': float(time_),
@@ -503,10 +494,7 @@ class Hank(QtWidgets.QMainWindow):
                             'button': button,
                             'pos': pos
                         })
-                    elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'keypressed':
-                        time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                        type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                        button = self.ui.edit_Tab_DataTable.item(r, 2).text()
+                    elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'keyreleased':
                         pos = None
                         actions.append({
                             'time': float(time_),
@@ -515,11 +503,6 @@ class Hank(QtWidgets.QMainWindow):
                             'pos': pos
                         })
                     elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'click':
-                        time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                        type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                        button = self.ui.edit_Tab_DataTable.item(r, 2).text()
-                        posX = self.ui.edit_Tab_DataTable.item(r, 3).text()
-                        posY = self.ui.edit_Tab_DataTable.item(r, 4).text()
                         pos = [int(posX), int(posY)]
                         actions.append({
                             'time': float(time_),
@@ -528,11 +511,6 @@ class Hank(QtWidgets.QMainWindow):
                             'pos': pos
                         })
                     elif self.ui.edit_Tab_DataTable.item(r, 1).text() == 'clickreleased':
-                        time_ = self.ui.edit_Tab_DataTable.item(r, 0).text()
-                        type_ = self.ui.edit_Tab_DataTable.item(r, 1).text()
-                        button = self.ui.edit_Tab_DataTable.item(r, 2).text()
-                        posX = self.ui.edit_Tab_DataTable.item(r, 3).text()
-                        posY = self.ui.edit_Tab_DataTable.item(r, 4).text()
                         pos = [int(posX), int(posY)]
                         actions.append({
                             'time': float(time_),
