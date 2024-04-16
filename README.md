@@ -10,7 +10,7 @@ There are no further prequisites required for running the software other than wh
 the build folder.
 
 ### Installing
-The executable file for the current build of the project is in the build folder [here](build)
+The executable file for the current build of the project is in the [build](build) folder.
 
 You can find a simple tutorial video on the download and installation of the program [here](https://www.youtube.com/watch?v=5_o-bEVHiZc&ab_channel=JeffreyHale). There are
 further tutorial videos below of basic usage of the program in the tutorials section.
