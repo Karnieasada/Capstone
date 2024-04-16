@@ -34,6 +34,7 @@ The following are some basic usages for the program and how to best enact them.
 
 ## Author
 Jeff Hale
+
 Senior Capstone Project for Computer Science at Northeastern University
 
 ## License
