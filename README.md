@@ -38,7 +38,7 @@ Jeff Hale
 Senior Capstone Project for Computer Science at Northeastern State University
 
 ## License
-This project is licensed the MIT License – see the [LICENSE.md](LICENSE) file for details 
+This project is licensed under the MIT License – see the [LICENSE.md](LICENSE) file for details 
 
 ## Acknowledgements
 - This program was built using functions from this project [here](https://github.com/learncodebygaming/enb_bot) by [learncodebygaming](https://github.com/learncodebygaming).
