@@ -16,7 +16,7 @@ You can find a simple tutorial video on the download and installation of the pro
 further tutorial videos below of basic usage of the program in the tutorials section.
 
 ## Testing
-Most of testing is practical in nature. You can find the videos covering my testing below.
+Most of my testing was practical in nature. You can find the videos covering my testing below.
 
 - Testing the keyboard inputs available [here](https://www.youtube.com/watch?v=6l5ru9JL3Ow&list=PLz6kVqNDu0s5uoFad-g-VEpj_bLU7Igo1&index=1&ab_channel=JeffreyHale)
 - Testing the mouse inputs like drag and drop [here](https://www.youtube.com/watch?v=pw0r9Hp59-w&list=PLz6kVqNDu0s5uoFad-g-VEpj_bLU7Igo1&index=2&ab_channel=JeffreyHale)
@@ -35,7 +35,7 @@ The following are some basic usages for the program and how to best enact them.
 ## Author
 Jeff Hale
 
-Senior Capstone Project for Computer Science at Northeastern University
+Senior Capstone Project for Computer Science at Northeastern State University
 
 ## License
 This project is licensed the MIT License – see the [LICENSE.md](LICENSE) file for details 
