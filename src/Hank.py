@@ -544,17 +544,10 @@ class Hank(QtWidgets.QMainWindow):
                 filepath = os.path.join(os.path.dirname(
                     os.path.abspath(sys.argv[0])),
                     'Recordings',
-                    '{}.json'.format(filename)
+                    filename
                 )
                 with open(filepath, 'w') as outfile:
                     json.dump(actions, outfile, indent=4)
-                old_Filename = self.edit_model.fileName(self.ui.edit_Tab_TreeView.currentIndex())
-                old_Path = os.path.join(os.path.dirname(
-                    os.path.abspath(sys.argv[0])),
-                    'Recordings',
-                    old_Filename
-                )
-                os.remove(old_Path)
                 # After the file is writen and saved then clear the data table and reset the header labels.
                 self.ui.edit_Tab_DataTable.clear()
                 self.ui.edit_Tab_DataTable.setRowCount(0)
