@@ -28,7 +28,7 @@ The following are some basic usages for the program and how to best enact them.
 
 ## Built With
 
-- [PyQt5](https://github.com/PyQt5) - For the gui.
+- [PyQt5](https://pypi.org/project/PyQt5/) - For the gui.
 - [Pynput](https://github.com/moses-palmer/pynput) - For the listeners for the input actions.
 - [Pydirectinput](https://github.com/learncodebygaming/pydirectinput) - For the playback of the actions.
 
