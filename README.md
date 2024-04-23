@@ -26,6 +26,10 @@ Most of my testing was practical in nature. You can find the videos covering my 
 ## Tutorials
 The following are some basic usages for the program and how to best enact them.
 
+- Simple typed email drafting and reply [here](https://www.youtube.com/watch?v=OrnVCwyJptI&ab_channel=JeffreyHale).
+- Part one of showing basic recording in a video game [here](https://www.youtube.com/watch?v=HJ8QXlwCxjw&ab_channel=JeffreyHale).
+- Part two showing some longer recordings and how to best enact them in a video game [here](https://www.youtube.com/watch?v=v_V_Kw_sDu8&ab_channel=JeffreyHale).
+
 ## Built With
 
 - [PyQt5](https://pypi.org/project/PyQt5/) - For the gui.
