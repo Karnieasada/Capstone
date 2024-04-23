@@ -54,7 +54,6 @@ class Hank(QtWidgets.QMainWindow):
         self.ui.play_Tab_Clear.clicked.connect(self.clear_play_OnClear)
 
         # Defining the UI components for the Edit Tab.
-        # self.edit_file = ''
         self.edit_model = QtWidgets.QFileSystemModel()
         self.edit_model.setRootPath(os.path.dirname(os.path.abspath(sys.argv[0])))
         self.ui.edit_Tab_TreeView.setModel(self.edit_model)
