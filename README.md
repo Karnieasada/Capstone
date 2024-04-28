@@ -16,6 +16,7 @@ You can find a simple tutorial video on the download and installation of the pro
 further tutorial videos below of basic usage of the program in the tutorials section.
 
 If you run into trouble with your antivirus terminating the program check out my video on how I dealt with Microsoft Defender and running the program in administrator mode [here](https://www.youtube.com/watch?v=zvxAE-eJf7Y&list=PLz6kVqNDu0s4YAqfidFvaBESzpjFQqALj&index=2&ab_channel=JeffreyHale).
+
 If you are still running into trouble after that look into your current antivirus and how to add the program to its exclusion list.
 
 ## Testing
