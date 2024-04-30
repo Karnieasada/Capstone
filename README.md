@@ -15,9 +15,8 @@ The executable file for the current build of the project is in the [build](build
 You can find a simple tutorial video on the download and installation of the program [here](https://www.youtube.com/watch?v=5_o-bEVHiZc&ab_channel=JeffreyHale). There are
 further tutorial videos below of basic usage of the program in the tutorials section.
 
-If you run into trouble with your antivirus terminating the program check out my video on how I dealt with Microsoft Defender and running the program in administrator mode [here](https://www.youtube.com/watch?v=zvxAE-eJf7Y&list=PLz6kVqNDu0s4YAqfidFvaBESzpjFQqALj&index=2&ab_channel=JeffreyHale).
+If you run into trouble with running the program this video [here](https://www.youtube.com/watch?v=zvxAE-eJf7Y&list=PLz6kVqNDu0s4YAqfidFvaBESzpjFQqALj&index=2&ab_channel=JeffreyHale) can help you troubleshoot the issues.
 
-If you are still running into trouble after that look into your current antivirus and how to add the program to its exclusion list.
 
 ## Testing
 Most of my testing was practical in nature. You can find the videos covering my testing below.
